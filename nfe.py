@@ -42,10 +42,10 @@ class DataForm(BaseModel):
 
 
 def main():
-    acquirer = Acquirer(name='Tuany Martins Antunes', taxid='00000000000')
-    seller = Seller(name="Evalda De Souza", taxid="91264880359")
+    acquirer = Acquirer(name='Sicrano de tal', taxid='00000000000')
+    seller = Seller(name="Fulano de tal", taxid="000000000000")
     items = [
-        Item(quantity=1, name='Aluguel bot > Bart (30 dias)', price=250),
+        Item(quantity=1, name='aluguel', price=250),
     ]
     dataform = DataForm(
         issued_at=datetime.now() - timedelta(days=4),
